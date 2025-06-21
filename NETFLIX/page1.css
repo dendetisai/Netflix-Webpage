@@ -1,0 +1,336 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  background-color: black;
+}
+
+.D1 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-color: black;
+}
+
+.D1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  background-color: black;
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px 40px;
+}
+
+.logo {
+  width: 200px;
+  height: 80px;
+}
+
+.A3 {
+  display: flex;
+  flex-direction:row;
+  padding-right: 40px;
+  gap: 10px;
+}
+
+.A3 button {
+  height: 40px;
+  width: 150px;
+  background-color: red;
+  border: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+}
+#A5{
+    background-color: transparent;
+    color: white;
+    font-weight: 700;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+.A4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.A6 {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid white; */
+  width: 700px;
+  height: 500px;
+  justify-content: center;
+  margin-top: -100px;
+  align-items: center;
+  gap: 15px; 
+}
+.A6 h1  {
+  color: white;
+  font-size: 60px;
+  font-weight: 700;
+  text-align: center;
+}
+.A6 p{
+    color: white;
+    font-size: 20px;
+}
+
+.A6 input {
+  padding: 10px;
+  width: 50%;
+  background-color:transparent;
+  font-size: 16px;
+  font-weight: 700;
+  color: aliceblue;
+}
+.A8 {
+  display: flex;
+  gap: 20px;  
+}
+.A6>span{
+  display: flex;
+  flex-direction: row; 
+  gap: 20px;
+}
+
+.A6 button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  width: 250px;
+  height: 50px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+.A7 {
+  padding: 30px;
+  margin-top: -120px;
+  background-color:black;
+  color: white;
+  font-family: sans-serif;
+}
+
+.A7 h2 {
+  margin-bottom: 20px;
+  color: white;
+  font-size: 24px;
+}
+
+.A8 {
+  display: flex;
+  overflow: scroll;      
+  gap: 20px;              
+}
+
+.A9 {
+  width: 200px;
+}
+
+
+.A9 img {
+  width: 200px;
+  height: 300px;
+  border-radius: 20px;
+  display: block;
+}
+
+.A10{
+  position: absolute;
+  bottom: 10px;
+  left: -15px;
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+  -webkit-text-stroke: 2px black; 
+  z-index: 1;
+}
+.A11 {
+  padding: 50px 20px;
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+  text-align: left;
+}
+
+.A11 > h2 {
+  margin-top: 0; /* Reset negative margin */
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.A12 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.A13 {
+  background-color: rgb(65, 63, 63);
+  color: white;
+  border-radius: 20px;
+  width: 300px;
+  padding: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 260px;
+}
+
+.A13 h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.A13 p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.A13 img {
+  width: 60px;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  border-radius: 10px;
+}
+
+.A15 {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  padding: 30px 0;
+}
+
+.A16 > h3 {
+  height: 30px;
+  color: white;
+  font-size: 22px;
+}
+.A17 {
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.A17 h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.A18 {
+  height: 200px;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.A19 {
+  background-color: #2d2d2d;
+  height: 80px;
+  width: 900px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+}
+
+.question {
+  background: none;
+  border: none;
+  width: 100%;
+  text-align: left;
+  padding: 20px;
+  font-size: 18px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.plus {
+  font-size: 30px;
+}
+.A21{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  margin: 50px;
+}
+.A21 >span> input{
+  height: 50px;
+  width: 400px;
+  background-color: transparent;
+  color: aliceblue;
+  border: 2px solid white;
+}
+.A21>span>button{
+  height: 50px;
+  width: 200px;
+  background-color: red;
+  color: aliceblue;
+}
+.A21>p{
+  color:#FFFFFFB3;
+  padding-top: 30px;
+}
+.A22{
+  margin-right: 300px;
+  height: 500px;
+  gap: 100px;
+  display:flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+.A24>a{
+  color:#FFFFFFB3 ;
+  font-size: medium;
+  display: inline;
+}
+.A23>p{
+  color:#FFFFFFB3 ;
+  margin-top: -50px;
+  align-items: center;
+  justify-content: center;
+}
+.A25{
+  color:#FFFFFFB3;
+  margin-top: -300px;
+  margin-left: 100px;
+  height: 30px;
+  width: 900px;
+}
+.A25>button{
+  background-color: transparent;
+  color:#FFFFFFB3;
+  border-radius: 5px;
+  height: 30px;
+  width: 100px;
+  border: 3px solid white;
+}
+
+
